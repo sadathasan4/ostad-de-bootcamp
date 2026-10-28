@@ -1,0 +1,38 @@
+
+ফাইল: module-01/data/orders_oct2026.csv
+সাইজ: 5.56 MB
+মোট সারি: 46907
+কলাম সংখ্যা: 14
+
+কলাম                   ধরন          ফাঁকা      উদাহরণ
+--------------------------------------------------------------------------
+order_id               text         0          ORD100001
+order_datetime         datetime     0          2026-10-01 16:19:09
+customer_id            text         0          C01608
+customer_name          text         0          Nusrat Akter
+area                   text         548        Chattogram
+item_name              text         0          Kola 12pc
+category               text         0          Fruits
+quantity               integer      0          2
+unit_price_bdt         decimal      0          121.51
+total_bdt              decimal      0          243.02
+payment_method         text         0          bKash
+status                 text         0          delivered
+delivery_minutes       integer      3248       24
+rider_id               text         1651       R092
+
+status অনুযায়ী:
+   delivered      43659  (93.1%)
+   cancelled       2338  (5.0%)
+   returned         910  (1.9%)
+
+সবচেয়ে বেশি অর্ডার যে পাঁচটা এলাকা থেকে:
+   Dhanmondi         7635
+   Mirpur            7000
+   Uttara            5860
+   Mohammadpur       4440
+   Chattogram        4206
+
+ডেলিভারির গড় সময়: 41.5 মিনিট (43659 টা অর্ডারের হিসাব)
+অক্টোবরে ডেলিভার হওয়া অর্ডারের মোট টাকা: 18,960,399
+
