@@ -4,22 +4,27 @@
 মোট সারি: 46907
 কলাম সংখ্যা: 14
 
-কলাম                   ধরন          ফাঁকা      উদাহরণ
---------------------------------------------------------------------------
-order_id               text         0          ORD100001
-order_datetime         datetime     0          2026-10-01 16:19:09
-customer_id            text         0          C01608
-customer_name          text         0          Nusrat Akter
-area                   text         548        Chattogram
-item_name              text         0          Kola 12pc
-category               text         0          Fruits
-quantity               integer      0          2
-unit_price_bdt         decimal      0          121.51
-total_bdt              decimal      0          243.02
-payment_method         text         0          bKash
-status                 text         0          delivered
-delivery_minutes       integer      3248       24
-rider_id               text         1651       R092
+কলাম                   ধরন          উদাহরণ
+----------------------------------------------------------------
+order_id               text         ORD100001
+order_datetime         datetime     2026-10-01 16:19:09
+customer_id            text         C01608
+customer_name          text         Nusrat Akter
+area                   text         Chattogram
+item_name              text         Kola 12pc
+category               text         Fruits
+quantity               integer      2
+unit_price_bdt         decimal      121.51
+total_bdt              decimal      243.02
+payment_method         text         bKash
+status                 text         delivered
+delivery_minutes       integer      24
+rider_id               text         R092
+
+ফাঁকা ঘর (পুরো ফাইলের হিসাব):
+   area                    548  (1.2%)
+   delivery_minutes       3248  (6.9%)
+   rider_id               1651  (3.5%)
 
 status অনুযায়ী:
    delivered      43659  (93.1%)
@@ -34,5 +39,4 @@ status অনুযায়ী:
    Chattogram        4206
 
 ডেলিভারির গড় সময়: 41.5 মিনিট (43659 টা অর্ডারের হিসাব)
-অক্টোবরে ডেলিভার হওয়া অর্ডারের মোট টাকা: 18,960,399
 
