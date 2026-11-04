@@ -43,6 +43,12 @@ module-01/          সপ্তাহ ১ — Getting Started
   data/             ল্যাবের data ফাইল
   starter/          যে ফাইলগুলো আপনি পূরণ করবেন
   solution/         ক্লাসের পরে মেলানোর জন্য
+  assignments/      ক্লাসের পরের কাজ
+
+module-02/          সপ্তাহ ২ — Git, GitHub, Python-এর শুরু
+  templates/        নিজের repo-তে বসানোর নমুনা
+  assignments/      ক্লাসের পরের কাজ
+  GIT_CHEATSHEET.md
 ```
 
 ---
