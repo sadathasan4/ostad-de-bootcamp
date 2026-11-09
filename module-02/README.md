@@ -53,11 +53,25 @@
 
 এলোমেলো কাঁচা sales record পরিষ্কার করে ঠিক type-এ বসানো।
 
+| ফাইল | কী |
+|---|---|
+| `data/raw_sales.txt` | দশটা এলোমেলো record — ল্যাব আর অ্যাসাইনমেন্টের কাঁচামাল |
+| `starter/clean_record.py` | ছয়টা TODO — ক্লাসে এটাই পূরণ করবেন |
+| `solution/clean_record.py` | সমাধান — নিজে চেষ্টা করার পরে দেখবেন |
+| `solution/EXPECTED_OUTPUT_class4.txt` | ঠিক কী ছাপা হওয়ার কথা |
+
+চালানোর নিয়ম (repo-র মূল ফোল্ডার থেকে):
+
+```bash
+python3 module-02/starter/clean_record.py
+```
+
 ---
 
 ## অ্যাসাইনমেন্ট
 
 - ক্লাস ৩: `assignments/class-03.md`
+- ক্লাস ৪: `assignments/class-04.md`
 
 ---
 
@@ -65,6 +79,9 @@
 
 ```
 module-02/
+  data/           ল্যাবের কাঁচা ফাইল
+  starter/        TODO ভরা ফাইল — আপনি পূরণ করবেন
+  solution/       সমাধান — পরে দেখবেন
   templates/      নিজের repo-তে বসানোর জন্য নমুনা ফাইল
   assignments/    ক্লাসের পরের কাজ
   GIT_CHEATSHEET.md

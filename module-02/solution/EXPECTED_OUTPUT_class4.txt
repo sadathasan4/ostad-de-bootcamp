@@ -1,0 +1,17 @@
+
+ORD100045  ·  2026-10-07
+Rahim Uddin কিনেছেন Miniket Chal 5kg — 2টা
+মোট ৳1240.50  (প্রতিটা ৳620.25)
+পেমেন্ট: bkash  ·  অবস্থা: delivered
+
+type পরীক্ষা:
+  order_id   str    ORD100045
+  quantity   int    2
+  amount     float  1240.5
+  unit_price float  620.25
+
+ORD100046  ·  2026-10-07
+Nusrat Akter কিনেছেন Soybean Oil 2L — 1টা
+মোট ৳350.00  (প্রতিটা ৳350.00)
+পেমেন্ট: nagad  ·  অবস্থা: delivered
+

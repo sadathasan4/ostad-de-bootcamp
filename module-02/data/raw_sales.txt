@@ -1,0 +1,10 @@
+  ord100045 ; 2026-10-07 ;  RAHIM  uddin ; Miniket Chal 5kg ; 2 ; ৳ 1,240.50 ; BKASH ; delivered
+ORD100046;2026-10-07;nusrat akter;Soybean Oil 2L;  1  ;৳350.00;nagad;delivered
+  ord100047 ;2026-10-08;  Tanvir Hossain  ; Dim 12pc ;3; ৳ 441.75 ; Cash on Delivery ;DELIVERED
+ORD100048 ; 2026-10-08 ; SUMAIYA  KHAN ; Ilish 1kg ;1;৳ 1,520.00; bkash ; cancelled
+ord100049;2026-10-09; rakib  mia ;Broiler Murgi 1kg; 4 ;৳ 812.00;Card;delivered
+  ORD100050 ;2026-10-09;  mim   begum ; Alu 2kg ; 2 ; ৳ 138.50 ; BKASH ;delivered
+ord100051 ; 2026-10-10 ; FAHIM ahmed ; Chaa Pata 400g ; 1 ; ৳ 232.25 ; Rocket ; returned
+ORD100052;2026-10-10;jannat  islam;Doodh 1L;  6  ; ৳ 558.00 ;nagad;delivered
+  ord100053 ; 2026-10-11 ;  Sabbir   Rahman ; Peyaj 1kg ; 3 ;৳ 219.75; CASH ON DELIVERY ; delivered
+ORD100054 ; 2026-10-11 ; afsana  chowdhury ; Apel 1kg ; 2 ; ৳ 1,105.00 ; bKash ; delivered
