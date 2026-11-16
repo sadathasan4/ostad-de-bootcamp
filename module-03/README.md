@@ -1,7 +1,29 @@
-# মডিউল ৩ — Python Core II
+# মডিউল ৩ — Python Core II ও III
 
-conditional আর loop। গত মডিউলে যে কোড বারবার লিখতে হচ্ছিল, এই মডিউলে
-সেটা একবার লিখেই চলবে।
+conditional, loop, function আর module। গত মডিউলে যে কোড বারবার লিখতে
+হচ্ছিল, এই মডিউলে সেটা একবার লিখেই চলবে।
+
+---
+
+## 🚀 ইন্টার‍্যাক্টিভ নোটবুক — ব্রাউজারেই চালান
+
+দুইটা ক্লাসের সব বিষয় এক জায়গায়, নিজের হাতে চালিয়ে শেখার জন্য।
+**কিছু ইনস্টল করা লাগবে না** — শুধু একটা Google অ্যাকাউন্ট।
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sadathasan4/ostad-de-bootcamp/blob/main/module-03/ThelaGari_Python_Lab_Module3.ipynb)
+
+উপরের বোতামে ক্লিক করুন, অথবা এই লিংকটা:
+
+```
+https://colab.research.google.com/github/sadathasan4/ostad-de-bootcamp/blob/main/module-03/ThelaGari_Python_Lab_Module3.ipynb
+```
+
+ভেতরে যা আছে — ব্যাখ্যা, চালানোর মতো কোড, **নিজে চেষ্টা করুন** অনুশীলন,
+লুকানো উত্তর, আর দুইটা মিনি-ল্যাব যেগুলো নিজেই মিলিয়ে দেখে বলে দেবে ঠিক
+হয়েছে কি না।
+
+> WSL-এ কাজ করতে অসুবিধা হলে এটা দিয়ে শুরু করুন। তবে অ্যাসাইনমেন্ট নিজের
+> মেশিনেই করবেন — আসল কাজ ওখানেই হয়।
 
 ---
 
@@ -48,9 +70,48 @@ python3 module-03/starter/loop_records.py
 
 ---
 
+## ক্লাস ৬ — function আর module
+
+### যা শিখবো
+
+- `def` — কাজটাকে একটা নাম দেওয়া
+- parameter আর argument — বাইরে থেকে জিনিস পাঠানো
+- `return` — আর print বনাম return-এর পার্থক্য
+- একাধিক parameter, default value
+- scope — ভেতরের variable বাইরে নেই
+- module — নিজের ফাইল `import` করা, আর `if __name__ == "__main__"`
+- standard library — `statistics`, `os`, `datetime`
+
+### ল্যাব
+
+ক্লাস ৫-এর কোডটাই, এবার দুই ফাইলে গোছানো। উত্তর বদলাবে না।
+
+| ফাইল | কী |
+|---|---|
+| `starter/sales_tools.py` | পাঁচটা function — পরিষ্কার করার যন্ত্রপাতি |
+| `starter/report.py` | ফাইল পড়া, loop, হিসাব — sales_tools import করে |
+| `solution/sales_tools.py` · `solution/report.py` | সমাধান |
+| `solution/EXPECTED_OUTPUT_class6.txt` | ঠিক কী ছাপা হওয়ার কথা |
+
+চালানোর নিয়ম — **আগে** `sales_tools.py`, **তারপর** `report.py`:
+
+```bash
+python3 module-03/starter/sales_tools.py
+python3 module-03/starter/report.py
+```
+
+> `report.py` প্রথমবার চালালে `TypeError: ... 'NoneType' has no len()`
+> আসবে। এটা স্বাভাবিক — `read_lines()` এখনো কিছু `return` করে না।
+
+---
+
 ## অ্যাসাইনমেন্ট
 
-- ক্লাস ৫: `assignments/class-05.md`
+**নিয়ম বদলেছে** — এখন থেকে প্রতি ক্লাসে না, প্রতি মডিউলে একটা
+অ্যাসাইনমেন্ট, দুইটা ক্লাসের বিষয় মিলিয়ে।
+
+- **মডিউল ৩: `assignments/module-03.md`** ← এটাই জমা দেবেন
+- `assignments/class-05.md` — এখন মডিউল অ্যাসাইনমেন্টের লেভেল ১
 
 ---
 
@@ -60,5 +121,5 @@ python3 module-03/starter/loop_records.py
 module-03/
   starter/        TODO ভরা ফাইল — আপনি পূরণ করবেন
   solution/       সমাধান — পরে দেখবেন
-  assignments/    ক্লাসের পরের কাজ
+  assignments/    মডিউলের শেষের কাজ
 ```
