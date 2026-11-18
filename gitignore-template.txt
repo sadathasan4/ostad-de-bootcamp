@@ -1,0 +1,30 @@
+# এই ফাইলটা নিজের repo-তে .gitignore নামে রাখবেন
+# (নামের শুরুতে একটা ডট, কোনো extension নেই)
+#
+# বানানোর কমান্ড:
+#   cp module-02/templates/gitignore-template.txt .gitignore
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# গোপন জিনিস — এটা কখনো push করবেন না
+.env
+*.key
+credentials.json
+
+# বড় data ফাইল
+*.csv
+*.log
+*.parquet
+data/
+
+# সিস্টেমের আবর্জনা
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
