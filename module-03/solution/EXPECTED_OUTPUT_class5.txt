@@ -1,0 +1,23 @@
+ফাইলে লাইন আছে: 10টা
+
+ORD100045  Rahim Uddin        Miniket Chal 5kg     2টা  ৳1240.50
+ORD100046  Nusrat Akter       Soybean Oil 2L       1টা  ৳350.00
+ORD100047  Tanvir Hossain     Dim 12pc             3টা  ৳441.75
+সতর্কতা: ORD100048 বাতিল — হিসাবে ধরা হলো না
+ORD100049  Rakib Mia          Broiler Murgi 1kg    4টা  ৳812.00
+ORD100050  Mim Begum          Alu 2kg              2টা  ৳138.50
+ORD100051  Fahim Ahmed        Chaa Pata 400g       1টা  ৳232.25
+ORD100052  Jannat Islam       Doodh 1L             6টা  ৳558.00
+ORD100053  Sabbir Rahman      Peyaj 1kg            3টা  ৳219.75
+ORD100054  Afsana Chowdhury   Apel 1kg             2টা  ৳1105.00
+
+--------- সারাংশ ---------
+মোট অর্ডার (বাতিল বাদে): 9টা
+বাতিল: 1টা
+মোট টাকা: ৳5097.75
+গড় অর্ডার: ৳566.42
+সবচেয়ে বড়: ORD100045 — ৳1240.50
+
+bkash-এ মোট: ৳2484.00
+৫০০ টাকার বেশি অর্ডার: 5টা
+

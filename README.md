@@ -12,8 +12,10 @@
 সেটআপ গাইডটা ধরে ধরে করুন (লিংক ক্লাসের গ্রুপে আছে)। সংক্ষেপে:
 
 ```bash
-# 1. এই ফোল্ডারের ভেতরে ঢুকুন
-cd ostad-de-bootcamp-main
+# 1. repo-টা নিজের মেশিনে নামান (ZIP না — clone)
+mkdir -p ~/de-bootcamp && cd ~/de-bootcamp
+git clone https://github.com/sadathasan4/ostad-de-bootcamp.git
+cd ostad-de-bootcamp
 
 # 2. সব বসিয়ে নিন (Python, pip, venv, git + .venv তৈরি)
 bash setup/setup.sh
@@ -21,6 +23,16 @@ bash setup/setup.sh
 # 3. সব ঠিক আছে কি না দেখুন
 python3 setup/doctor.py
 ```
+
+প্রতি সপ্তাহে নতুন ফাইল আনতে শুধু:
+
+```bash
+cd ~/de-bootcamp/ostad-de-bootcamp
+git pull
+```
+
+> ZIP নামিয়ে খুললে ফোল্ডারের নাম হয় `ostad-de-bootcamp-main`, আর ওখানে
+> `git pull` চলে না। তাই clone করাই ভালো।
 
 শেষের `SUMMARY:` লাইনটা কপি করে ক্লাসের চ্যাটে পাঠাবেন।
 
@@ -46,9 +58,17 @@ module-01/          সপ্তাহ ১ — Getting Started
   assignments/      ক্লাসের পরের কাজ
 
 module-02/          সপ্তাহ ২ — Git, GitHub, Python-এর শুরু
+  data/             ল্যাবের কাঁচা ফাইল
+  starter/          যে ফাইলগুলো আপনি পূরণ করবেন
+  solution/         ক্লাসের পরে মেলানোর জন্য
   templates/        নিজের repo-তে বসানোর নমুনা
   assignments/      ক্লাসের পরের কাজ
   GIT_CHEATSHEET.md
+
+module-03/          সপ্তাহ ৩ — Python Core II: if, loop, list
+  starter/          যে ফাইলগুলো আপনি পূরণ করবেন
+  solution/         ক্লাসের পরে মেলানোর জন্য
+  assignments/      ক্লাসের পরের কাজ
 ```
 
 ---
